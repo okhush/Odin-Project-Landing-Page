@@ -43,7 +43,7 @@ body {
     margin: 40px;
 }
 
-button {
+.butt1 {
     font-family: Roboto, sans-serif;
     font-weight: bold;
     border: none;
@@ -65,17 +65,74 @@ button {
 }
 
 .blockswtext {
-    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxx {
+    border: 5px solid #365585;
+    border-radius: 10px;
+    width: 140px;
+    height: 150px;
+    padding: 10px;
+    margin: 10px;
 }
 
 .quote {
+    background-color: #e5e7eb;
+    color: #1F2937;
+    padding-left: 200px;
+    padding-right: 200px;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
+.by {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .cta {
+    display: flex;
+    background: #3882f6;
+    color: #e5e7eb;
+    justify-content: space-around;
+    padding: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 10px;
+}
 
+.butt2 {
+    border: 2px solid #e5e7eb;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    border-radius: 4px;
+    background: #3882f6;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .footer {
-
+    background-color: #1F2937;
+    color: #e5e7eb;
+    padding: 15px;
+    text-align: center;
+    margin-top: 90px;
 }
