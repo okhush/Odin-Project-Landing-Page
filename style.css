@@ -3,7 +3,6 @@
 body {
     height: 100vh;
     margin: 0;
-    overflow: auto;
     font-family: Roboto, sans-serif;
 }
 
@@ -26,8 +25,6 @@ body {
 .intro {
     background-color: #1F2937;
     color: white;
-    font-size: 30px;
-    font-weight: 900;
     padding-top: 30px;
     padding-left: 300px;
     padding-right: 300px;
@@ -44,9 +41,6 @@ body {
 
 .intro2 {
     margin: 40px;
-    padding: 150px;
-    background-color: gray;
-    
 }
 
 button {
@@ -54,9 +48,34 @@ button {
     font-weight: bold;
     border: none;
     border-radius: 4px;
-    background: #30b0fa;
+    background: #3882f6;
     color: white;
     padding: 10px;
     padding-left: 35px;
     padding-right: 35px;
+}
+
+.sentence {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+.blockswtext {
+    
+}
+
+.quote {
+
+}
+
+.cta {
+
+}
+
+.footer {
+
 }
